@@ -4,6 +4,8 @@ Elasticsearch-focused Support Engineer with nearly 5 years at Elastic and 12+ ye
 
 I work at the intersection of Elasticsearch search systems, production diagnostics, indexing and data modelling, relevance evaluation, observability, and AI-assisted knowledge workflows.
 
+Most of the projects below are active work in progress. I use them as practical labs for testing search ideas, shaping diagnostics, comparing relevance strategies, and turning support and engineering experience into reproducible workflows.
+
 ## Current focus areas
 
 - Elasticsearch search, mappings, indexing, ingest pipelines, and production diagnostics
@@ -14,17 +16,48 @@ I work at the intersection of Elasticsearch search systems, production diagnosti
 
 ## Featured projects
 
-- [elastic-product-search-lab](https://github.com/esterkane/elastic-product-search-lab)  
-  E-commerce product search relevance lab with Elasticsearch mappings, deterministic ingestion, `search_profile` enrichment, BM25 strategy comparison, ESCI-based relevance metrics, latency benchmarks, and local search quality gates.
+### [elastic-product-search-lab](https://github.com/esterkane/elastic-product-search-lab)
 
-- [elastic-search-policy-control-plane](https://github.com/esterkane/elastic-search-policy-control-plane)  
-  TypeScript and Node.js search governance prototype that turns raw e-commerce queries into deterministic Elasticsearch execution plans with filters, boosts, exclusions, strategy routing, and explainable policy traces.
+E-commerce product search relevance lab with Elasticsearch mappings, deterministic ingestion, `search_profile` enrichment, BM25 strategy comparison, ESCI-based relevance metrics, latency benchmarks, and local search quality gates.
 
-- [elastic-repo-inventory](https://github.com/esterkane/elastic-repo-inventory)  
-  Release-intelligence and retrieval app for Elasticsearch technical content, with provenance-aware indexing, hybrid retrieval, metadata filters, evidence snippets, and version-aware search workflows.
+What it demonstrates:
 
-- [ai-tools/ragbook_local](https://github.com/esterkane/ai-tools/tree/main/ragbook_local)  
-  Local RAG system for technical PDFs with hybrid retrieval, optional OCR, reranking, claim checking, and source-grounded answers.
+- product search relevance is measured, not guessed
+- ingestion quality affects search quality
+- ranking changes are compared with Precision@5, MRR@10, nDCG@10, and p95 latency
+- search quality gates can catch relevance or latency regressions
+
+### [elastic-search-policy-control-plane](https://github.com/esterkane/elastic-search-policy-control-plane)
+
+TypeScript/Node.js search governance prototype that turns raw e-commerce queries into deterministic Elasticsearch execution plans with filters, boosts, exclusions, strategy routing, and explainable policy traces.
+
+What it demonstrates:
+
+- governed search behavior through policy data
+- explainable query rewriting and boosting
+- deterministic conflict handling
+- safer handling of exclusions such as allergens, blocked categories, or business constraints
+
+### [elastic-repo-inventory](https://github.com/esterkane/elastic-repo-inventory)
+
+Release-intelligence and retrieval app for Elasticsearch technical content, with provenance-aware indexing, hybrid retrieval, metadata filters, evidence snippets, and version-aware search workflows.
+
+What it demonstrates:
+
+- provenance-first retrieval
+- hybrid ranking
+- metadata-aware search
+- evidence-based technical research workflows
+
+### [elastic-ai-search-decision-lab](https://github.com/esterkane/elastic-ai-search-decision-lab)
+
+Small Elasticsearch/TypeScript lab that turns AI search documentation drafts into an indexed decision system and evaluates findability with practitioner questions, judgment sets, MRR, nDCG, and Precision@k.
+
+What it demonstrates:
+
+- documentation can be tested as a retrieval surface
+- AI search concepts can be organized into decision-oriented workflows
+- practitioner questions, judgment sets, and ranking metrics make findability measurable
 
 ## How I work
 
