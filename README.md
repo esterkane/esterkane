@@ -59,6 +59,16 @@ What it demonstrates:
 - AI search concepts can be organized into decision-oriented workflows
 - practitioner questions, judgment sets, and ranking metrics make findability measurable
 
+## Additional pinned projects
+
+### [duplicate_detection_project-v2-jinaai](https://github.com/esterkane/duplicate_detection_project-v2-jinaai)
+
+Streamlit duplicate-detection workflow for knowledge base articles using Jina AI embeddings, Elasticsearch hybrid search, reranking, HDBSCAN clustering, and a Docker-based local setup.
+
+### [elasticsearch-resilience-quiz](https://github.com/esterkane/elasticsearch-resilience-quiz)
+
+Interactive Google Colab quiz covering Elasticsearch, Kafka, Kubernetes, gRPC, Node.js, and resilience concepts.
+
 ## How I work
 
 - I prefer evidence over guessing.
