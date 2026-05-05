@@ -18,7 +18,7 @@ Most of the projects below are active work in progress. I use them as practical 
 
 ### [kcs-control-plane](https://github.com/esterkane/kcs-control-plane)
 
-Version 3 of my duplicate-detection work for knowledge base articles. It evolves the earlier Streamlit-based duplicate-detection prototype into a local control plane with ingestion, resumable embedding backfills, chunking, checkpointed duplicate materialization, a live review UI, and optional remote analysis publishing.
+Version 3 of my duplicate-detection work for knowledge base articles. This is the current, more operational evolution of the earlier prototype line: it turns the ideas from version 2 into a local control plane with ingestion, resumable embedding backfills, chunking, checkpointed duplicate materialization, a live review UI, and optional remote analysis publishing.
 
 What it demonstrates:
 
@@ -74,7 +74,7 @@ What it demonstrates:
 
 ### [duplicate_detection_project-v2-jinaai](https://github.com/esterkane/duplicate_detection_project-v2-jinaai)
 
-Version 2 of this duplicate-detection line of work: a Streamlit workflow for knowledge base articles using Jina AI embeddings, Elasticsearch hybrid search, reranking, HDBSCAN clustering, and a Docker-based local setup. It proved out the retrieval, reranking, and clustering ideas that later evolved into `kcs-control-plane` as version 3.
+Version 2 of this duplicate-detection line of work: a Streamlit workflow for knowledge base articles using Jina AI embeddings, Elasticsearch hybrid search, reranking, HDBSCAN clustering, and a Docker-based local setup. It was the prototype stage that proved out the retrieval, reranking, and clustering ideas before they were expanded into `kcs-control-plane` as version 3.
 
 ### [elasticsearch-resilience-quiz](https://github.com/esterkane/elasticsearch-resilience-quiz)
 
