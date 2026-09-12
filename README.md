@@ -1,87 +1,127 @@
 # Sanja Ruzic
 
-Elasticsearch-focused Support Engineer with nearly 5 years at Elastic and 12+ years in technical support and application engineering.
+**AI Knowledge & Learning Systems | Search, RAG & LLM Evaluation | Technical Learning & Developer Education**
 
-I work at the intersection of Elasticsearch search systems, production diagnostics, indexing and data modelling, relevance evaluation, observability, and AI-assisted knowledge workflows.
+I build systems that help people find, understand, practise, and apply complex technical knowledge.
 
-Most of the projects below are active work in progress. I use them as practical labs for testing search ideas, shaping diagnostics, comparing relevance strategies, and turning support and engineering experience into reproducible workflows.
+My background combines 13+ years in technical support and application engineering with deep experience in Elasticsearch, search/retrieval, production diagnostics, observability, knowledge workflows, and technical problem solving.
 
-## Current focus areas
+I'm currently exploring how those capabilities can be applied to:
 
-- Elasticsearch search, mappings, indexing, ingest pipelines, and production diagnostics
-- Product search relevance, BM25, hybrid retrieval, semantic search, vectors, reranking, and RAG
-- Relevance evaluation with judgment lists, Precision@k, MRR, nDCG, and latency benchmarks
-- Search quality gates, explainable query behavior, and evidence-based troubleshooting
-- Python, TypeScript, Node.js, Docker, Elasticsearch
+- AI-powered knowledge and learning systems
+- RAG, hybrid retrieval, semantic search, and reranking
+- LLM evaluation, reliability, and guardrails
+- knowledge-to-learning pipelines
+- adaptive technical learning
+- conversational and voice-based learning
+- technical simulations and diagnostic reasoning
+- developer education and AI-assisted expert workflows
 
-## Featured projects
+The common thread across my work is **measurable quality**: grounded answers, provenance, retrieval metrics, reproducible diagnostics, evaluation datasets, human review, and systems that help people build understanding rather than simply generate answers.
 
-### [kcs-control-plane](https://github.com/esterkane/kcs-control-plane)
+## Featured work
 
-Version 3 of my duplicate-detection work for knowledge base articles. This is the current, more operational evolution of the earlier prototype line: it turns the ideas from version 2 into a local control plane with ingestion, resumable embedding backfills, chunking, checkpointed duplicate materialization, a live review UI, and optional remote analysis publishing.
+### 🧠 Lernapp — AI-assisted language learning
 
-What it demonstrates:
+Cross-platform learning application for German practice across TestDaF, workplace communication, and negotiation.
 
-- duplicate analysis as a resumable operational pipeline, not just a one-off experiment
-- local-first workflows with optional shared remote analysis snapshots
-- hybrid search, embeddings, chunk evidence, duplicate edges, and duplicate clusters in one system
-- reviewable duplicate families with evidence and editorial decisions in a browser UI
+It combines conversation and writing practice, personal learning materials, audio, vocabulary, saved progress, speech recognition, voice interaction, and AI-assisted feedback.
 
-### [elastic-product-search-lab](https://github.com/esterkane/elastic-product-search-lab)
+**What I'm exploring**
 
-E-commerce product search relevance lab with Elasticsearch mappings, deterministic ingestion, `search_profile` enrichment, BM25 strategy comparison, ESCI-based relevance metrics, latency benchmarks, and local search quality gates.
+- conversational AI for learning
+- voice and speech interfaces
+- personalised practice
+- learner progress
+- local-first/private learning workflows
+- how AI can support practice without replacing the learner's own thinking
 
-What it demonstrates:
+→ [lernapp-updates](https://github.com/esterkane/lernapp-updates)
 
-- product search relevance is measured, not guessed
-- ingestion quality affects search quality
-- ranking changes are compared with Precision@5, MRR@10, nDCG@10, and p95 latency
-- search quality gates can catch relevance or latency regressions
+---
 
-### [elastic-search-policy-control-plane](https://github.com/esterkane/elastic-search-policy-control-plane)
+### 🔎 Grounded RAG Assistant — Knowledge + Retrieval + Evaluation
 
-TypeScript/Node.js search governance prototype that turns raw e-commerce queries into deterministic Elasticsearch execution plans with filters, boosts, exclusions, strategy routing, and explainable policy traces.
+Production-shaped RAG system over technical documentation using Elasticsearch hybrid retrieval, reranking, citations, feedback, evaluation, and observability.
 
-What it demonstrates:
+**What it demonstrates**
 
-- governed search behavior through policy data
-- explainable query rewriting and boosting
-- deterministic conflict handling
-- safer handling of exclusions such as allergens, blocked categories, or business constraints
+- grounded generation
+- measurable retrieval quality
+- provenance and citations
+- LLM observability
+- human review
+- insufficient-evidence handling
 
-### [elastic-repo-inventory](https://github.com/esterkane/elastic-repo-inventory)
+This forms part of the knowledge infrastructure I want to apply to adaptive learning systems.
 
-Release-intelligence and retrieval app for Elasticsearch technical content, with provenance-aware indexing, hybrid retrieval, metadata filters, evidence snippets, and version-aware search workflows.
+→ [grounded-rag-assistant](https://github.com/esterkane/grounded-rag-assistant)
 
-What it demonstrates:
+---
 
-- provenance-first retrieval
-- hybrid ranking
-- metadata-aware search
-- evidence-based technical research workflows
+### 🧩 KCS Control Plane — Knowledge Quality & Human/AI Review
 
-### [elastic-ai-search-decision-lab](https://github.com/esterkane/elastic-ai-search-decision-lab)
+Operational knowledge-quality system for identifying duplicate and overlapping technical articles, clustering related knowledge, and supporting editorial review.
 
-Small Elasticsearch/TypeScript lab that turns AI search documentation drafts into an indexed decision system and evaluates findability with practitioner questions, judgment sets, MRR, nDCG, and Precision@k.
+**What it demonstrates**
 
-What it demonstrates:
+- knowledge quality
+- semantic similarity
+- human-in-the-loop AI
+- evaluation against human decisions
+- safe agent workflows
+- knowledge governance
 
-- documentation can be tested as a retrieval surface
-- AI search concepts can be organized into decision-oriented workflows
-- practitioner questions, judgment sets, and ranking metrics make findability measurable
+→ [kcs-control-plane](https://github.com/esterkane/kcs-control-plane)
 
-## Additional pinned projects
+---
 
-### [duplicate_detection_project-v2-jinaai](https://github.com/esterkane/duplicate_detection_project-v2-jinaai)
+### 🎓 Elasticsearch Resilience Quiz — Technical Learning Experiment
 
-Version 2 of this duplicate-detection line of work: a Streamlit workflow for knowledge base articles using Jina AI embeddings, Elasticsearch hybrid search, reranking, HDBSCAN clustering, and a Docker-based local setup. It was the prototype stage that proved out the retrieval, reranking, and clustering ideas before they were expanded into `kcs-control-plane` as version 3.
+Interactive technical quiz focused on engineering judgement across Elasticsearch, distributed systems, observability, and resilience.
 
-### [elasticsearch-resilience-quiz](https://github.com/esterkane/elasticsearch-resilience-quiz)
+Each problem includes explanations and evidence from official documentation.
 
-Interactive Google Colab quiz covering Elasticsearch, Kafka, Kubernetes, gRPC, Node.js, and resilience concepts.
+This is an early experiment in turning technical knowledge into active practice rather than passive documentation.
+
+→ [elasticsearch-resilience-quiz](https://github.com/esterkane/elasticsearch-resilience-quiz)
+
+---
+
+## What I'm building next
+
+I'm particularly interested in moving from:
+
+**documentation → retrieval → answers**
+
+toward:
+
+**knowledge → diagnosis → practice → feedback → evaluation → mastery**
+
+Upcoming experiments include:
+
+- an AI troubleshooting simulator
+- adaptive technical tutoring with progressive hints
+- knowledge-to-learning pipelines
+- learner-state and misconception modelling
+- evaluation of AI tutoring quality
+- conversational simulation
+- small immersive/WebXR learning experiments
+
+## Core technologies
+
+**AI & retrieval:** RAG, hybrid search, semantic search, vector search, reranking, LLM evaluation, agents  
+**Search:** Elasticsearch, BM25, relevance evaluation, Precision@k, MRR, nDCG  
+**Engineering:** Python, FastAPI, TypeScript, Node.js, Docker  
+**Observability:** OpenTelemetry, structured logging, tracing, metrics  
+**Knowledge:** KCS, knowledge quality, deduplication, provenance, human review
 
 ## How I work
 
-- I prefer evidence over guessing.
-- I focus on reproducible diagnostics, measurable improvements, and clear communication.
-- I enjoy bridging support, engineering, documentation, search relevance, and product thinking.
+I prefer systems that:
+
+- make complex knowledge understandable
+- expose evidence rather than hide it
+- measure quality instead of assuming it
+- keep humans in control where judgement matters
+- turn recurring problems into reusable knowledge and tools
