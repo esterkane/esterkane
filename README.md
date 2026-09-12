@@ -88,6 +88,27 @@ This is an early experiment in turning technical knowledge into active practice 
 
 ---
 
+### 📊 Elasticsearch Product Search Lab — Search Relevance & Evaluation
+
+E-commerce product search relevance lab with Elasticsearch mappings, deterministic ingestion, BM25 strategy comparison, relevance metrics, latency benchmarks, and local search quality gates.
+
+**What it demonstrates**
+
+- measurable search relevance
+- ranking comparison with Precision@5, MRR@10, and nDCG@10
+- ingestion quality and its effect on search
+- reproducible latency benchmarks and quality gates
+
+→ [elastic-product-search-lab](https://github.com/esterkane/elastic-product-search-lab)
+
+---
+
+## More search and retrieval work
+
+- [elastic-search-policy-control-plane](https://github.com/esterkane/elastic-search-policy-control-plane) — deterministic search policies and explainable query execution.
+- [elastic-repo-inventory](https://github.com/esterkane/elastic-repo-inventory) — provenance-aware technical retrieval and version-aware search.
+- [elastic-ai-search-decision-lab](https://github.com/esterkane/elastic-ai-search-decision-lab) — documentation findability evaluated with practitioner questions and relevance metrics.
+
 ## What I'm building next
 
 I'm particularly interested in moving from:
